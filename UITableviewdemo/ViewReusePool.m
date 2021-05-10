@@ -29,6 +29,8 @@
     return view;
 }
 
+
+// 2
 // 添加一个新view
 - (void)addNewUsingView:(UIView *)newView{
     if (newView) [self.usingQueue addObject:newView];

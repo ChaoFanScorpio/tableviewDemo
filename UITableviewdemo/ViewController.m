@@ -19,7 +19,9 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
+    [super viewDidLoad];'
+    
+    // 1
     //创建一个Tableview
     self.tableView = [[CustomTableView alloc] initWithFrame:CGRectMake(0, 60, self.view.frame.size.width, self.view.frame.size.height - 60) style:UITableViewStylePlain];
     self.tableView.delegate = self;

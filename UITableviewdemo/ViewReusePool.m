@@ -29,7 +29,7 @@
     return view;
 }
 
-
+// 3
 // 2
 // 添加一个新view
 - (void)addNewUsingView:(UIView *)newView{
